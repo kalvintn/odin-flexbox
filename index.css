@@ -1,0 +1,55 @@
+/* Global styles */
+:root {
+    --primary-color: #1f2937; /* Dark Blue */
+    --secondary-color: #f9faf8; /* Off White */
+    --accent-color: #3882f6; /* Light Blue */
+}
+body {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+
+
+
+/* header styles */
+header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav {
+    display: flex;
+    gap: 30px;
+}
+header h1 {
+    color: var(--secondary-color);
+}
+nav a:link { /* stand out against bg */
+    color: green;
+}
+nav a:visited {
+    color: grey;
+}
+
+
+
+
+
+.hero {
+    background-color: var(--primary-color);
+}
+
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: var(--primary-color);
+    padding: 10px;
+}
