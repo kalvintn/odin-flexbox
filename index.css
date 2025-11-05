@@ -16,10 +16,12 @@ h1 {
 
 
 
+
+
 /* header styles */
 header {
     background-color: var(--primary-color);
-    padding: 20px;
+    padding: 20px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,9 +44,35 @@ nav a:visited {
 
 
 
+/* hero styles */
 .hero {
+    color: var(--secondary-color);
     background-color: var(--primary-color);
+    padding: 70px 150px;
+
+    display: flex;
+    justify-content: space-between;
 }
+.hero .hero-panel {
+    max-width: 50%;
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero img {
+    max-width: 450px;
+}
+.hero button {
+    font-weight: bold;
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
+    padding: 10px 25px;
+    border: none;
+    border-radius: 7px;
+}
+
+
 
 
 footer {
