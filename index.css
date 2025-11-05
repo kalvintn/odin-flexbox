@@ -3,6 +3,7 @@
     --primary-color: #1f2937; /* Dark Blue */
     --secondary-color: #f9faf8; /* Off White */
     --accent-color: #3882f6; /* Light Blue */
+    --gray: #e5e7eb; /* Gray */
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -21,16 +22,18 @@ h1 {
 /* header styles */
 header {
     background-color: var(--primary-color);
-    padding: 20px 150px;
+    padding: 50px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 header nav {
+    font-size: 18px;
     display: flex;
     gap: 30px;
 }
 header h1 {
+    font-size: 24px;
     color: var(--secondary-color);
 }
 nav a:link { /* stand out against bg */
@@ -60,6 +63,9 @@ nav a:visited {
     font-size: 48px;
     font-weight: 900;
 }
+.hero p {
+    font-size: 18px;
+}
 .hero img {
     max-width: 450px;
 }
@@ -71,6 +77,49 @@ nav a:visited {
     border: none;
     border-radius: 7px;
 }
+
+
+
+
+
+/* image-list styles */
+.image-section {
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 150px 150px 250px 150px;
+}
+.image-section h1 {
+    font-size: 36px;
+    color: var(--primary-color);
+}
+.image-section img {
+    object-fit: cover; /* scaling maintains aspect ratio, cut overflowing content */
+    height: 150px;
+    width: 150px;
+    border: 5px solid var(--accent-color);
+    border-radius: 7px;
+    margin: 10px auto;
+}
+.image-figures {
+    display: flex;
+    justify-content: center;
+}
+figcaption {
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
