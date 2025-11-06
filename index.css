@@ -130,14 +130,38 @@ figcaption {
 
 
 
+/* call to action styles */
+.action-call {
+    color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    padding: 200px 180px;
+}
+.action-call-bubble { /* text and button */
+    background-color: var(--accent-color);
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.action-call-text {
+    flex-basis: 80%;
+}
+.action-call button {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
 
 
 
 
 
-
-
-
+/* footer styles */
 footer {
     text-align: center;
     color: white;
