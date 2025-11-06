@@ -1,3 +1,1 @@
-## Author
-Made by Kalvin Nguyen.  
-Copyright :copyright: 2025  
+Made by Kalvin Nguyen. View live at https://kalvintn.github.io/odin-flexbox
