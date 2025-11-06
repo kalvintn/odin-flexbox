@@ -1,3 +1,3 @@
 ## Author
-Author | Kalvin Nguyen
-GitHub | https://github.com/kalvintn/
+Made by Kalvin Nguyen.  
+Copyright :copyright: 2025  
