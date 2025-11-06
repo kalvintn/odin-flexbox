@@ -86,7 +86,7 @@ nav a:visited {
 .image-section {
     text-align: center;
     background-color: var(--secondary-color);
-    padding: 150px 150px 250px 150px;
+    padding: 150px 150px 180px 150px;
 }
 .image-section h1 {
     font-size: 36px;
@@ -111,6 +111,20 @@ figcaption {
 
 
 
+
+/* quote styles */
+.quote {
+    background-color: var(--gray);
+    padding: 150px 300px;
+}
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+.quote h1 {
+    text-align: right;
+}
 
 
 
